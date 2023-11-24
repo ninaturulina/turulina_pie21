@@ -9,7 +9,7 @@ function f(x) {
 }
 
 let myX = prompt('Введите x:');
-if (parseInt(myX) != NaN) {
+if (!isNaN(parseInt(myX))) {
     myX = parseInt(myX);
     if (myX < 0) {
         alert('Квадрат из отрицательного числа не извлекается');
