@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
- <title>Квест</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='Description' content="My first online blog">
+    <meta name="keywords" content="Super Modern Online Blog">
+    <title>Super Modern Blog</title>
+    <link rel="shortcut icon" href="images/icon.svg" />
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-  <link rel="stylesheet" href="style.css">
-
-<div id="welcome-screen">
-  <h1 id="greeting">Добро пожаловать в текстовый квест "День студента":</h1>
-  <p>Хотите начать?</p>
-  <button id="start">Начать</button>
-</div>
-
-<div id="game-screen" style="display: none;">
-  <h1>День студента</h1>
-  <img src="" id="image">
-  <p id="situation"></p>
-  <input id="action" type="text" placeholder="Если в вопросе не прописаны варианты ответа: введите 'следующий вопрос'">
-  <p id="error-message" class="error-message"></p>
-  <button id="submit">Продолжить</button>
-  <button id="end" style="display: none;">Завершить</button>
-</div>
-
-<div id="final-screen" style="display: none;">
-  <h1 id="celeb">Поздравляю! Игра завершена!</h1>
-  <div id="textbox">
-  </div>
-  <button id="restart">Перезапустить</button>
-</div>
-<script src="script.js"></script>
+    <header>
+        <div class="wrap-logo">
+        <a class="logo">BlogS</a>
+        </div>
+      </header>
+    <div class="blogs">
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <ul>
+                <p>Thank you for whatching</p>
+                <p>©2023 Barnaul</p>
+                <p>Turulina Nina</p>
+                <p>Illustration by <a href="https://ru.freepik.com/free-vector/hand-drawn-kitsune-illustration_24997020.htm">Freepik</a></p>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts/fileWithConstants.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>
