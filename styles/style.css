@@ -50,7 +50,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #c55e9e;
+  background-color: #a14e81;
   padding: 20px 10px;
   height: 100px;
   margin-bottom: 30px;
@@ -62,15 +62,14 @@ header {
   align-items: center;
 }
 
-
-header a.logo {
+header p.logo {
   font-size: 25px;
   font-weight: bold;
   color: white;
 }
 
 .footer {
-  background-color: #c55e9e;
+  background-color: #a14e81;
   color: white;
   padding: 10px;
   text-align: center;
@@ -80,7 +79,12 @@ header a.logo {
   width: 100%;
 }
 
-
 a{
   color: white;
 }  
+
+@media (max-width: 768px) {
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+}
