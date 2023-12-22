@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color:black;
+    background-color: white 
+  }
+
+#welcome-screen {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background: linear-gradient(rgba(13, 2, 2, 0.406), rgba(0, 0, 0, 0.8)), url('https://media1.tenor.com/m/D48L_xXEcDoAAAAd/stress-study.gif') no-repeat center;
+   background-size: 100% 100%;
+   align-items: center;
+   justify-content: center;
+   text-align: center; 
+   background-color: rgba(0, 0,0, 0.5);
+   color: white; 
+  }
+
+#game-screen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    color: black;
+    }
+
+#action {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.textbox { 
+    padding: 20px; 
+    background: cornsilk; 
+    border: 2px solid indigo ; 
+  }
+
+#final-screen {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(13, 2, 2, 0.406), rgba(0, 0, 0, 0.8)), url('https://media1.tenor.com/m/9xsaUKpV4L0AAAAC/youmu-touhou.gif') no-repeat center;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0,0, 0.5);
+    text-align: center; 
+    color: white; 
+   }
+
+#submit {
+    color: white;
+    background: #0B63F6;
+    padding: 15px 32px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+#end {
+    color: white;
+    background: #0B63F6;
+    padding: 15px 32px;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+#start{
+    background-color: #0B63F6;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+
+}
+
+#restart{
+    background-color: #0B63F6;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+h1 {
+    text-align:center;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
+
+.error-input {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #f4f4f4;
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+from {
+ box-shadow: 0 0 20px #f4f4f4;
+}
+to {
+ box-shadow: 0 0 60px #0B63F6; 
+}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Квест</title>
+</head>
+<body>
+  <link rel="stylesheet" href="style.css">
+
+<div id="welcome-screen">
+  <h1 id="greeting">Добро пожаловать в текстовый квест "День студента":</h1>
+  <p>Хотите начать?</p>
+  <button id="start">Начать</button>
+</div>
+
+<div id="game-screen" style="display: none;">
+  <h1>День студента</h1>
+  <img src="" id="image">
+  <p id="situation"></p>
+  <input id="action" type="text" placeholder="Если в вопросе не прописаны варианты ответа: введите 'следующий вопрос'">
+  <p id="error-message" class="error-message"></p>
+  <button id="submit">Продолжить</button>
+  <button id="end" style="display: none;">Завершить</button>
+</div>
+
+<div id="final-screen" style="display: none;">
+  <h1 id="celeb">Поздравляю! Игра завершена!</h1>
+  <div id="textbox">
+  </div>
+  <button id="restart">Перезапустить</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
