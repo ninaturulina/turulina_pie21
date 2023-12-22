@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Проверка координат точки</title>
+</head>
+<body>
+    <style>
+        body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+  }
+      </style>   
+ <h1>Лежит ли точка в третьей/четвертой четверти:</h1>
+ <label for="x">Введите координату x:</label>
+ <input type="number" id="x"><br><br>
+ <label for="y">Введите координату y:</label>
+ <input type="number" id="y"><br><br>
+ <button onclick="checkPoint()">Проверить</button>
+ <p id="result"></p>
+
+ <script src="what_quater.js"></script>
+</body>
+</html>
