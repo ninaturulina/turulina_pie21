@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Калькулятор</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <h1>Привет! Я онлайн-калькулятор и могу выполнять следующие операции:</h1>
+ <h2>"+" - сложение<br>"-" - вычитание<br>"*" - умножение<br>"/" - деление<br>"%" - вычисление остатка от деления</h2>
+ <h3>Давай вычислим что-нибудь вместе!</h3>
+ <div>
+  <input type="number" id="first_number" placeholder="Введите первый операнд">
+  <input type="number" id="second_number" placeholder="Введите второй операнд">
+ </div>
+ <div>
+  <button onclick="calculate('+')">+</button>
+  <button onclick="calculate('-')">-</button>
+  <button onclick="calculate('*')">*</button>
+  <button onclick="calculate('/')">/</button>
+  <button onclick="calculate('%')">%</button>
+ </div>
+ <p id="result"></p>
+ <script src="operator.js"></script>
+</body>
